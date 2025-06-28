@@ -8,8 +8,8 @@
 <head>
   <meta charset="UTF-8">
 
-  <link rel="apple-touch-icon" sizes="76x76" href="/img/fluid.png">
-  <link rel="icon" href="/img/fluid.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon.ico">
+  <link rel="icon" href="/img/favicon.ico">
   
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
@@ -19,16 +19,16 @@
   <meta name="author" content="Rg">
   <meta name="keywords" content="">
   
-    <meta name="description" content="博客搭建 保证nodejs，npm，git这些环境全部配置好。  123git versionnode -vnpm -v  依次执行命令： 1234npm install -g hexo-clihexo init myBlogcd myBlognpm install  创建好自己本地的博客文件夹，并安装好了相应的依赖。  首先创建github仓库，绑定一个作为自己的专属博客仓库。  这里要求git">
+    <meta name="description" content="本人博客搭建过程，亲自测试&amp;实际过程，现在先建好自己的博客模板，后续再不断进行本文的完善~~ 1. 博客搭建 保证nodejs，npm，git这些环境全部配置好。  123git versionnode -vnpm -v  依次执行命令： 1234npm install -g hexo-clihexo init myBlogcd myBlognpm install  创建好自己本地的博客文">
 <meta property="og:type" content="article">
 <meta property="og:title" content="hexo搭建博客教程及主题设置">
 <meta property="og:url" content="https://wh1826.github.io/2025/06/27/hexo%E5%8D%9A%E5%AE%A2%E5%88%9D%E5%BB%BA/index.html">
 <meta property="og:site_name" content="Rg’s blog">
-<meta property="og:description" content="博客搭建 保证nodejs，npm，git这些环境全部配置好。  123git versionnode -vnpm -v  依次执行命令： 1234npm install -g hexo-clihexo init myBlogcd myBlognpm install  创建好自己本地的博客文件夹，并安装好了相应的依赖。  首先创建github仓库，绑定一个作为自己的专属博客仓库。  这里要求git">
+<meta property="og:description" content="本人博客搭建过程，亲自测试&amp;实际过程，现在先建好自己的博客模板，后续再不断进行本文的完善~~ 1. 博客搭建 保证nodejs，npm，git这些环境全部配置好。  123git versionnode -vnpm -v  依次执行命令： 1234npm install -g hexo-clihexo init myBlogcd myBlognpm install  创建好自己本地的博客文">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://wh1826.github.io/img/index_01.png">
 <meta property="article:published_time" content="2025-06-27T12:56:34.000Z">
-<meta property="article:modified_time" content="2025-06-27T16:27:09.714Z">
+<meta property="article:modified_time" content="2025-06-28T03:39:33.129Z">
 <meta property="article:author" content="Rg">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://wh1826.github.io/img/index_01.png">
@@ -73,7 +73,7 @@
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
     Fluid.ctx = Object.assign({}, Fluid.ctx)
-    var CONFIG = {"hostname":"wh1826.github.io","root":"/","version":"1.9.8","typing":{"enable":true,"typeSpeed":100,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/local-search.xml","include_content_in_search":true};
+    var CONFIG = {"hostname":"wh1826.github.io","root":"/","version":"1.9.8","typing":{"enable":true,"typeSpeed":125,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/local-search.xml","include_content_in_search":true};
 
     if (CONFIG.web_analytics.follow_dnt) {
       var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
@@ -211,7 +211,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          820 字
+          863 字
         
       </span>
     
@@ -222,7 +222,7 @@
         
         
         
-          7 分钟
+          8 分钟
         
       </span>
     
@@ -264,7 +264,8 @@
             
               <div class="markdown-body">
                 
-                <h3 id="博客搭建"><a href="#博客搭建" class="headerlink" title="博客搭建"></a>博客搭建</h3><ol>
+                <p>本人博客搭建过程，亲自测试&amp;实际过程，现在先建好自己的博客模板，后续再不断进行本文的完善~~</p>
+<h2 id="1-博客搭建"><a href="#1-博客搭建" class="headerlink" title="1. 博客搭建"></a>1. 博客搭建</h2><ol>
 <li>保证nodejs，npm，git这些环境全部配置好。</li>
 </ol>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs bash">git version<br>node -v<br>npm -v<br></code></pre></td></tr></table></figure>
@@ -332,7 +333,7 @@
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">hexo new <span class="hljs-string">&quot;新文件名称&quot;</span><br></code></pre></td></tr></table></figure>
 
 <p><img src="https://wh1826.github.io/img/4.png" srcset="/img/loading.gif" lazyload></p>
-<h3 id="主题设置"><a href="#主题设置" class="headerlink" title="主题设置"></a>主题设置</h3><ol>
+<h2 id="2-主题设置"><a href="#2-主题设置" class="headerlink" title="2. 主题设置"></a>2. 主题设置</h2><ol>
 <li>先安装一个插件，为了渲染各项主题pug文件，不安装会失败</li>
 </ol>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">npm install hexo-renderer-pug --save<br></code></pre></td></tr></table></figure>
@@ -431,6 +432,37 @@
             </div>
 
             
+  
+  
+    <article id="comments" lazyload>
+      
+  <div id="valine"></div>
+  <script type="text/javascript">
+    Fluid.utils.loadComments('#valine', function() {
+      Fluid.utils.createScript('https://lib.baomitu.com/valine/1.5.1/Valine.min.js', function() {
+        var options = Object.assign(
+          {"appId":"iPDZjRT7q3hWkbPMVjYoBVcY-gzGzoHsz","appKey":"z4TkWOnwk8kN0Ri6QO6VRLxA","path":"window.location.pathname","placeholder":"发表下你的意见叭~~","avatar":"mp","meta":[],"requiredFields":[],"pageSize":10,"lang":"zh-CN","highlight":true,"recordIP":false,"serverURLs":"","emojiCDN":null,"emojiMaps":null,"enableQQ":false},
+          {
+            el: "#valine",
+            path: window.location.pathname
+          }
+        )
+        new Valine(options);
+        Fluid.utils.waitElementVisible('#valine .vcontent', () => {
+          var imgSelector = '#valine .vcontent img:not(.vemoji)';
+          Fluid.plugins.imageCaption(imgSelector);
+          Fluid.plugins.fancyBox(imgSelector);
+        })
+      });
+    });
+  </script>
+  <noscript>Please enable JavaScript to view the comments</noscript>
+
+
+    </article>
+  
+
+
           </article>
         </div>
       </div>
